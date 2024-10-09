@@ -6,4 +6,4 @@ Where did the name originate?
 Widely regarded as the best spy plane globally, the Lockheed U2 was nicknamed Lady Dragon. 
 This project is meant to tagline "Oversight at a glance". 
 
-Inspiration derived from [Ch](https://github.com/christoabrown) and his GroupIronman.men platform. 
+Inspiration derived from [christoabrown](https://github.com/christoabrown) and his GroupIronman.men platform. 
