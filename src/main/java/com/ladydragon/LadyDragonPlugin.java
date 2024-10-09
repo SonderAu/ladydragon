@@ -30,7 +30,9 @@ public class LadyDragonPlugin extends Plugin
 
 	@Inject
 	private LadyDragonConfig config;
-	private final OkHttpClient httpClient = new OkHttpClient();
+
+	@Inject
+	private OkHttpClient httpClient;
 
 	@Override
 	protected void startUp() throws Exception
@@ -64,6 +66,7 @@ public class LadyDragonPlugin extends Plugin
 			}
 		});
 	}
+
 	private void sendPlayerSkillDataToServer(SkillingService skillingService) {
 		// Debugging log to check values before sending
 		String playerName = skillingService.whoOwnsThis();
@@ -105,7 +108,6 @@ public class LadyDragonPlugin extends Plugin
 			}
 		});
 	}
-
 
 	// Helper function to convert SkillingService data to JSON format
 	private String skillingServiceToJson(SkillingService skillingService) {
