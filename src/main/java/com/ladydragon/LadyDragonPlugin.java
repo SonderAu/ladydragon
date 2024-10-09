@@ -17,7 +17,7 @@ import java.io.IOException;
 
 @Slf4j
 @PluginDescriptor(
-		name = "Account Tracker",
+		name = "Lady Dragon Tracker",
 		description = "Collects player data and sends it to a Spring Boot server."
 )
 public class LadyDragonPlugin extends Plugin
