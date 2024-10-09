@@ -4,7 +4,7 @@ import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
+@ConfigGroup("Configuration")
 public interface LadyDragonConfig extends Config
 {
 	@ConfigItem(
@@ -15,7 +15,7 @@ public interface LadyDragonConfig extends Config
 
 	)
 	default String serverUrl() {
-		return "http://localhost:8080"; // Default URL, change as needed
+		return "https://localhost/api"; // Default URL, change as needed
 	}
 	@ConfigItem(
 			keyName = "username",
